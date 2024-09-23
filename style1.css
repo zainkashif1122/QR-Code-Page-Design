@@ -1,0 +1,62 @@
+body{
+    box-sizing: border-box;
+}
+
+.box{
+    border: 2px solid white;
+    max-width: 250px;
+    background-color: lightgray;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 5px 10px 0px #aaaaaa;
+}
+
+.box-wrapper{
+    display: flex;
+    justify-content: space-around;
+    max-width: auto;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+
+img{
+    display: block;
+    height: 200px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+    margin: 26px auto;
+}
+
+.content{
+    padding: 2px;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    position: relative;
+    top: 3px;
+}
+
+.edit, .download{
+    color: blue;
+    cursor: pointer;
+}
+
+.dustbin{
+    color: red;
+    cursor: pointer;
+}
+
+button{
+    margin: 2px;
+    padding: 0%;
+}

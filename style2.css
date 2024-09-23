@@ -1,0 +1,116 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer-container{
+    background-color: black;
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    top: 180px;
+    box-shadow: 0px 0px 20px 0px royalblue;
+}
+
+.outer-container img{
+    border-radius: 5px;
+    width: 94%;
+    height: 60%;
+    position: relative;
+    top: 6px;
+    left: 6px;
+    cursor: url('../../assets/images/cursor.cur'),auto;
+}
+
+.outer-container .text-container h1{
+    position: relative;
+    top: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}*/
+
+body{
+    place-items: center;
+    min-height: 100vh;
+}
+
+.wrapper{
+    margin: auto;
+    top: 50px;
+}
+
+.envelope{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: blue;
+    margin: auto;
+    top: 300px;
+}
+
+.envelope::before{
+    content: "";
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    background-color: blue;
+    transform: rotate(45deg);
+    top: -106px;
+    left: 44px;
+    border-radius: 30px 0 0 0;
+}
+
+.front{
+    position: absolute;
+    border-right: 300px solid red;
+    border-top: 200px solid transparent;
+    left: 0px;
+    top: 0px;
+}
+
+.front::before{
+    position: absolute;
+    content: "";
+    border-left: 300px solid yellow;
+    border-top: 200px solid transparent;
+    left: -120;
+    top: -200px;
+}
+
+.card{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 6px;
+    place-items:center;
+    top: -145px;
+    left: 50px;
+    box-shadow: 0px 0px 1px 0px;
+}
+
+img{
+    width: 90%;
+    height: 80%;
+    position: relative;
+    left: 10px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    z-index: 10;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+    top: -130px;
+}
