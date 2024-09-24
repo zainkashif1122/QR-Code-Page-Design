@@ -34,6 +34,7 @@ This project showcases two distinct QR code designs. Each design is implemented 
 ### **Softwares**:
 - **VS Code**: For writing and editing HTML and CSS.
 - **Browser**: For previewing the web pages.
+- **Font Awesome**: For adding icons.
 
 ## Features
 - **Responsive Design**: The QR code pages adjust seamlessly to various screen sizes, providing an optimal viewing experience on both desktop and mobile devices.
