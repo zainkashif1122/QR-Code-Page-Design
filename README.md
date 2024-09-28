@@ -2,6 +2,9 @@
 
 Explore two unique, creatively designed QR code web pages, built using HTML and CSS for a modern, responsive user experience.
 
+![qr-code1png.png](qr-code1png.png)
+![qr-code2png.png](qr-code2png.png)
+
 ## Description
 This project showcases two distinct QR code designs. Each design is implemented with a separate HTML and CSS file, ensuring responsiveness and clean layout across different screen sizes. Whether you're viewing it on mobile or desktop, the designs remain crisp and interactive.
 
@@ -24,7 +27,7 @@ This project showcases two distinct QR code designs. Each design is implemented 
     ```bash
     cd qr-code-page-design
     ```
-3. Open `index1.html` or `index2.html` in your web browser to view the respective QR code designs.
+3. Open [index1.html](index1.html) or [index2.html](index2.html) in your web browser to view the respective QR code designs.
 
 ## Technologies Used
 ### **Languages**:
