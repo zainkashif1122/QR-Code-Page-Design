@@ -9,13 +9,13 @@ Explore two unique, creatively designed QR code web pages, built using HTML and 
 This project showcases two distinct QR code designs. Each design is implemented with a separate HTML and CSS file, ensuring responsiveness and clean layout across different screen sizes. Whether you're viewing it on mobile or desktop, the designs remain crisp and interactive.
 
 ## Project Structure
-- [index1.html](index1.html): HTML file for the first QR code design page.
-- [index2.html](index2.html): HTML file for the second QR code design page.
-- [style1.css](style1.css): CSS file for styling the first design.
-- [style2.css](style2.css): CSS file for styling the second design.
-- [qr-code1png.png](qr-code1png.png): Image of the first QR code.
-- [qr-code2png.png](qr-code2png.png): Image of the second QR code.
-- [Qr-Code.jpg](Qr-Code.jpg): Additional QR code image.
+- [`index1.html`](index1.html): HTML file for the first QR code design page.
+- [`index2.html`](index2.html): HTML file for the second QR code design page.
+- [`style1.css`](style1.css): CSS file for styling the first design.
+- [`style2.css`](style2.css): CSS file for styling the second design.
+- [`qr-code1png.png`](qr-code1png.png): Image of the first QR code.
+- [`qr-code2png.png`](qr-code2png.png): Image of the second QR code.
+- [`Qr-Code.jpg`](Qr-Code.jpg): Additional QR code image.
 
 ## How to View the Website
 ### Local Development:
@@ -27,7 +27,7 @@ This project showcases two distinct QR code designs. Each design is implemented 
     ```bash
     cd qr-code-page-design
     ```
-3. Open [index1.html](index1.html) or [index2.html](index2.html) in your web browser to view the respective QR code designs.
+3. Open [`index1.html`](index1.html) or [`index2.html`](index2.html) in your web browser to view the respective QR code designs.
 
 ## Technologies Used
 ### **Languages**:
